@@ -1,0 +1,11 @@
+table.table-condensed
+	 - @items.each_index do |index|
+		- if index%6 == 0 
+			tr
+		td
+			a{href="http://cdn-s3-2.wanelo.com/product/image/#{@items[index].to_s}/original.jpg"}
+				img src="http://cdn-s3-0.wanelo.com/product/image/#{@items[index].to_s}/x200.png"
+
+br
+br
+
