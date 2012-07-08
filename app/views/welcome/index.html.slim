@@ -1,11 +1,22 @@
-table.table-condensed
-	 - @items.each_index do |index|
-		- if index%6 == 0 
-			tr
-		td
-			a{href="http://cdn-s3-2.wanelo.com/product/image/#{@items[index].to_s}/original.jpg"}
-				img src="http://cdn-s3-0.wanelo.com/product/image/#{@items[index].to_s}/x200.png"
+ul.thumbnails
+	- @items.each do |i|
+		li.span2
+			a.thumbnail href="/product/#{i.to_s}"
+				img src="http://cdn-s3-0.wanelo.com/product/image/#{i.to_s}/x200.png" onMouseOver='alert("product_item_#{i}")'
+				.products-detail{ id="product_item_#{i}" style="position: relative; z-index:100; top:-100px; background-color: #fff; width:200px; font-size:14px; opacity: 0.7; padding:5px; display:none;"}
+					.products-price
+						|Price: $29.00
+					.products-name
+						|Perfect Shirt...
+					.products-store
+						|Store: google.com
+					.products-username
+						|posted by lm92
+					.products-count
+						|Save It 566 saves
 
-br
-br
 
+javascript:
+	function show_product(a){
+		alert(a);
+	}

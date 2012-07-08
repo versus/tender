@@ -11,3 +11,13 @@
  *= require_self
  *= require_tree .
  */
+
+.detail_from {font-size: 1.5em; paddin:10px;}
+.pagination.comments {padding-left: 60px;}
+.product-image { padding-left: 60px; padding-top: 20px;}
+.well.price {background-color: #00CC66; color: #fff; }
+.well.price a  { color: #fff; }
+.well.price_item  {background-color: #FFFFCC; color: #000;  }
+.well.saveit {background-color: #3399CC; color: #fff; }
+.well.saveit a {color: #fff;}
+.well.saveit_item {background-color: #fff; color: #000; }
