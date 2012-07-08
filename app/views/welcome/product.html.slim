@@ -1,0 +1,75 @@
+ul.breadcrumb
+	li
+    	a{href="/"} Home 
+    	span.divider 
+    		|/
+	li
+    	a{href="#"} Yana
+    	span.divider 
+    		|/
+    li
+    	a{href="#"} My Wishlist
+    	span.divider 
+    		|/
+    li.active Vintage Strawberry Shortcake Full Fitted Sheet 1980
+
+.alert.alert-success
+	b Well done! 
+	|You successfully read this important alert message.
+	button.close &times;
+.alert.alert-error
+	b Oh snap! 
+	|Change a few things up and try submitting again.
+	button.close &times;
+
+h2 Vintage Strawberry Shortcake Full Fitted Sheet 1980
+p.detail_from  
+	|Yana posted this to 
+	a{href="list"} My Wishlist
+	|10 days ago from 
+	a{href="etsy.com"} etsy.com
+
+.container-fluid
+	.row-fluid
+    	.span7
+			img.product-image src="http://cdn-s3-0.wanelo.com/product/image/#{@product}/original.jpg" width="500px;"  
+			.pagination.comments
+				ul
+					li: a href="#" <<
+					li.active: a href="/1" 1
+					li: a href="/2" 2
+					li: a href="/3" 3	    					
+					li: a href="/4" 4
+					li: a href="/5" 5
+					li: a href="/6" 6
+					li: a href="/7" 7	    					
+					li: a href="/8" 8
+					li: a href="/9" 9
+					li: a href="/10" 10					
+					li: a href="/next" >>    				
+
+		.span2.well.price
+				h1 
+					a href="/buy" Price
+		.span3.well.price_item
+				h1 
+					= ((9.99+rand(100)) * 100)/ 100
+					|&nbsp;грн.	
+		.span2.well.saveit
+				h1 
+					a href="/add" Save It
+		.span3.well.saveit_item
+				h1 
+					= rand(99999)		
+		.span5
+			h4 другие товары пользователя Яна
+			br
+			ul.thumbnails
+			- for i in 1491829..1491859
+				li.span2
+					a.thumbnail href="/product/#{i.to_s}"
+						img src="http://cdn-s3-3.wanelo.com/product/image/#{i.to_s}/x90.png"
+
+
+
+
