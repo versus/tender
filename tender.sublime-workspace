@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
 				"wh",
 				"while	while ... end"
 			]
@@ -23,7 +39,7 @@
 			"file": "app/views/layouts/application.html.slim",
 			"settings":
 			{
-				"buffer_size": 1388,
+				"buffer_size": 1217,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +47,7 @@
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 1844,
+				"buffer_size": 1887,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +55,15 @@
 			"file": "app/controllers/welcome_controller.rb",
 			"settings":
 			{
-				"buffer_size": 202,
+				"buffer_size": 287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/welcome/product.html.slim",
+			"settings":
+			{
+				"buffer_size": 1636,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +71,15 @@
 			"file": "app/views/welcome/index.html.slim",
 			"settings":
 			{
-				"buffer_size": 270,
+				"buffer_size": 676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/application.css",
+			"settings":
+			{
+				"buffer_size": 985,
 				"line_ending": "Unix"
 			}
 		}
@@ -84,6 +116,8 @@
 	},
 	"file_history":
 	[
+		"/home/nastenko/project/tender/config/environments/test.rb",
+		"/home/nastenko/project/tender/log/development.log",
 		"/home/nastenko/project/tender/tender.sublime-project",
 		"/home/nastenko/project/tender/config/database.yml",
 		"/home/nastenko/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
@@ -92,13 +126,14 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -106,6 +141,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Яна",
+			"td",
+			"padding: 5px",
+			"margin:2px",
+			"margin:5px",
+			"td"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -113,6 +154,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			".span2",
+			"padding:3px",
+			"margin:3px",
+			"margin:2px",
+			"",
+			"div"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -123,7 +170,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -157,15 +204,15 @@
 					"file": "app/views/layouts/application.html.slim",
 					"settings":
 					{
-						"buffer_size": 1388,
+						"buffer_size": 1217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								936,
-								936
+								1021,
+								1021
 							]
 						],
 						"settings":
@@ -175,7 +222,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 230.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -185,15 +232,15 @@
 					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 1844,
+						"buffer_size": 1887,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								821,
-								821
+								34,
+								34
 							]
 						],
 						"settings":
@@ -213,20 +260,22 @@
 					"file": "app/controllers/welcome_controller.rb",
 					"settings":
 					{
-						"buffer_size": 202,
+						"buffer_size": 287,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								172,
-								172
+								194,
+								194
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -236,23 +285,77 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/views/welcome/index.html.slim",
+					"file": "app/views/welcome/product.html.slim",
 					"settings":
 					{
-						"buffer_size": 270,
+						"buffer_size": 1636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								270,
-								270
+								1530,
+								1530
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ruby-slim-tmbundle/Syntaxes/Ruby Slim.tmLanguage"
+							"syntax": "Packages/ruby-slim-tmbundle/Syntaxes/Ruby Slim.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/welcome/index.html.slim",
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ruby-slim-tmbundle/Syntaxes/Ruby Slim.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/assets/stylesheets/application.css",
+					"settings":
+					{
+						"buffer_size": 985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -296,7 +399,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
