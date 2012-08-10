@@ -31,7 +31,7 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1068,
+				"buffer_size": 1128,
 				"line_ending": "Unix"
 			}
 		},
@@ -80,6 +80,14 @@
 			"settings":
 			{
 				"buffer_size": 985,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.rdoc",
+			"settings":
+			{
+				"buffer_size": 1112,
 				"line_ending": "Unix"
 			}
 		}
@@ -170,7 +178,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -178,15 +186,15 @@
 					"file": "Gemfile",
 					"settings":
 					{
-						"buffer_size": 1068,
+						"buffer_size": 1128,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								412,
-								412
+								203,
+								203
 							]
 						],
 						"settings":
@@ -356,6 +364,34 @@
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "README.rdoc",
+					"settings":
+					{
+						"buffer_size": 1112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -1,12 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+#gem 'mysql2'
 gem "tabs_on_rails"
+gem "mongoid", "~> 3.0.3"
+
 
 gem 'redis'
 gem 'pry',  :group => :development
@@ -22,6 +24,10 @@ gem 'jquery-rails'
 
 gem "paperclip", "~> 3.0"
 gem "twitter-bootstrap-rails"
+
+gem 'stalker'
+gem 'clockwork'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
