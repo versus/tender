@@ -13,4 +13,8 @@ class WelcomeController < ApplicationController
   def product
   	@product = params[:id]
   end
+
+  def add_product
+    @product = Product.new
+  end
 end

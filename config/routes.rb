@@ -1,4 +1,6 @@
 Tender::Application.routes.draw do
+  resources :users
+
   get "welcome/index"
   root :to => 'welcome#index'
   match 'product/:id' => 'welcome#product'
