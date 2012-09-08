@@ -1,4 +1,5 @@
 class Product < ActiveRecord::Base
+	belongs_to :user
   	attr_accessible :name
   	has_attached_file :photo, :styles => { :small => "200x200>" },
                   :url  => "/assets/products/:id/:style/:basename.:extension",

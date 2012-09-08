@@ -6,7 +6,8 @@ class CreateProducts < ActiveRecord::Migration
       t.decimal :save_count
       t.string  :from_site
       t.text    :descript
-
+      t.decimal :user_id
+      
       t.timestamps
     end
   end
