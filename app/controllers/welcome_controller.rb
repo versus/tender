@@ -6,15 +6,10 @@ class WelcomeController < ApplicationController
   		@items.push(item+i)
   		i=i+1
   	end
-  	#@items = @items.each_slice(5).to_a
-
   end
 
   def product
   	@product = params[:id]
   end
 
-  def add_product
-    @product = Product.new
-  end
 end
