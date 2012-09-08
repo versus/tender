@@ -4,7 +4,7 @@ Tender::Application.routes.draw do
 
   get "welcome/index"
   root :to => 'welcome#index'
-  match 'product/:id' => 'products#index'
+  match 'product/:id' => 'products#show'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
