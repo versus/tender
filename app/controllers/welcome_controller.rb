@@ -8,8 +8,4 @@ class WelcomeController < ApplicationController
   	end
   end
 
-  def product
-  	@product = params[:id]
-  end
-
 end
