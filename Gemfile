@@ -6,11 +6,12 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'mysql2'
+gem 'sqlite3'
 gem "tabs_on_rails"
-gem "mongoid", "~> 3.0.3"
 
+#gem "mongoid", "~> 3.0.3"
+#gem 'redis'
 
-gem 'redis'
 gem 'pry',  :group => :development
 gem 'hirb', :group => :development
 gem 'slim'
@@ -27,7 +28,6 @@ gem "twitter-bootstrap-rails"
 
 gem 'stalker'
 gem 'clockwork'
-
 
 # Gems used only for assets and not required
 # in production environments by default.
