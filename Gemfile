@@ -23,7 +23,7 @@ gem "slim-rails"
 gem "yell-rails"
 gem 'jquery-rails'
 
-gem "paperclip", "~> 3.0"
+gem "paperclip", "~> 4.3"
 gem "twitter-bootstrap-rails"
 
 gem 'stalker'
